@@ -1,0 +1,30 @@
+.container {
+  width: 400px;
+  height: 340px;
+  border: 5px solid #333;
+  margin: 30px auto;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: wrap;
+  /* flex-direction: row; */
+  justify-content: center;
+  /* align-items: center;   */
+  /* align-content: center; */
+}
+
+.container div {
+  /* width: 100px;*/
+  height: 100px;
+  flex: 1;
+  background-color: #1158f0;
+  margin: 2px;
+  /* flex:1 */
+}
+.container div h5 {
+  color: #fff;
+  text-align: center;
+}
+.satu {
+  order: 4;
+}
